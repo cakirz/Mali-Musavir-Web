@@ -2,12 +2,13 @@ body {
   margin: 1;
   font-family: Arial, sans-serif;
 
-  background-image: url(resim00.png);
+  background-image: url(images/office-layout-ideas.jpg);
   background-repeat: no-repeat;
-  background-size: 1500px;
+  background-size: 1600px;
   background-color: #2489e1;
-  margin-left: ;
-  
+  align-items: center;
+  justify-content: center;
+
 
 }
 
@@ -62,16 +63,6 @@ body {
   color: black;
 }
 
-.bottom-left-box {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 200px;
-  height: 100px;
-  background-color: #2919d8;
-  padding: 10px;
-
-}
 
 .image-panel {
   width: 800%;
@@ -91,7 +82,7 @@ body {
 }
 
 .image-panel img:nth-child(2) {
-  animation-duration: 10s;
+  animation-duration: 12.5s;
 }
 
 .image-panel img:nth-child(3) {
@@ -115,16 +106,21 @@ body {
   left: 0;
   width: 100%;
   background-color: #f1f1f1;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
 }
 
 .footer p {
   margin: 0;
 }
-.iletisimclass{
+
+.iletisimclass {
   margin-left: 40px;
   color: #f1f1f1;
   background-color: #2489e1;
-  bak
+
+}
+
+.iletisimmargin {
+  margin: 1px;
 }
